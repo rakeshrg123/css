@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif, monospace;
+}
+section{
+	margin: 20px;
+	height: 550px;
+	border: 1 px solid silver;
+	border: 5px groove;
+}
+ h2{
+	font-weight: 180;
+	text-align: center;
+	padding: 20px;
+}
+table{
+	position: absolute;
+	top: 150px;
+	left: 120px;
+	width: 70em;
+	height: 15em;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+table,th,td{
+	border: 1px solid black ;
+	border-collapse: collapse;
+	padding: 10px 0px 10px 5px;
+	text-align: left;
+}
+
+.dropdown{
+	margin-left: 100px;
+}
+
+.searchbox{
+	/*display: flex;*/
+	float: right;
+	position: relative;
+	right: 100px;
+	bottom: 19px;
+}
+#textbox{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	background: #e6ffff;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+
+}
+.listshown{
+	display: inline;
+	margin-left: 90px;
+	position: relative;
+	top: 23em;
+}
+.listshown a {
+	text-decoration: none;
+	color:  black;
+	font-weight: 800;
+}
+.pages{
+	float: right;
+	position: relative;
+	top: 23em;
+	left: 8em;
+	
+
+}
+ .pages ul {
+ 	display: flex;
+	background: #fff;
+	border-radius: 50px;
+	padding: 10px 20px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+.pages ul li{
+	list-style: none;
+	line-height: 25px;
+	margin: 0 5px;
+}
+.pages ul .pagenumber{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.pages ul li a{
+	display: block;
+	text-decoration: none;
+	color: #777;
+	font-weight: 600;
+	border-radius: 50%;
+}
+.pages ul li.pagenumber:hover a,
+.pages ul li.pagenumber.active a
+{
+	background: #4dffa6;
+
+}
+.pages ul li:first-child{
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.pages ul li:last-child{
+	margin-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+

@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+body{
+	background: linear-gradient(to bottom,#484848,#585858);
+}
+.loginpage{
+	display: flex;
+	width: 950px;
+	height: 600px;
+	background: white;
+	margin: 3em auto;
+	border-radius: 6px;
+	box-shadow: 2px 2px 5px ;
+	
+}
+
+.infopage1{
+	background: black;
+	color: white;
+	width: 650px;
+	height: 580px;
+	margin-top: 20px;
+	padding-left: 60px;
+	padding-top: 40px;
+	border-radius: 0 0 0 6px;
+	
+}
+.navbar{
+	font-size: 10px;
+	margin-top: 80px;
+	padding-top: 20px;
+
+}
+.nav{
+	float: right;
+	position: fixed;
+	position: relative;
+	right: 155px;
+	display: flex;
+
+
+}
+.dropdown{
+	color: gray;
+	
+}
+.dropdown ul{
+	list-style: none;
+}
+.dropdown ul li a{
+	text-decoration: none;
+	color: gray;
+
+}
+.dropdown ul li a:hover{
+	color: #4dffc3;
+
+}
+.dropdown ul ul{
+	display: none;
+}
+.dropdown ul li:hover > ul{
+	display: block;
+}
+.dropdown ul li{
+	display: inline;
+	
+}
+.dropdown ul li ul li{
+	display: block;
+
+}
+
+.nav a{
+	color: gray;
+	text-decoration: none;
+	padding-left: 20px;
+}
+.nav a:hover{
+
+    color: #4dffc3;
+}
+.btn1{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background-color: #00e699;
+	color: white;
+	font-size: 12px;
+	transition: .3s, ease;
+}
+.btn1:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	color: black;
+
+
+}
+figure img{
+	width: 110px;
+	margin-bottom: 110px;
+	
+}
+.header{
+	font-size: 35px;
+	padding-bottom: 3px;
+	color: white;
+}
+.sub-header{
+	font-size: 19px;
+	font-weight: lighter;
+	padding-bottom: 15px;
+	color: gray;
+
+}
+.infopage1  p  {
+	color: gray;
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+.singinpage1{
+	background: #00e699;
+	width: 340px;
+	height: 580px;
+	margin-top: 20px;
+	border-radius: 0 0 6px 0;
+	
+}
+.frm{
+	margin: 13em auto;
+	padding-left: 45px;
+
+}
+.frm p{
+	color: white;
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+.frm div input{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #e6ffff;
+	background:  #00e699;
+	padding-bottom: 8px;
+	color: white;
+	
+
+}
+.text{
+	margin-bottom: 15px;
+	
+}
+.psswd{
+	margin-bottom: 15px;
+
+}
+.lgbtn{
+	width: 70px;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	font-size: 12px;
+	color:  #00e699;
+	margin-right: 10px;
+}
+.lgbtn:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	}
+.frm a {
+	text-decoration: none;
+	font-size: 11px;
+	color: white;
+
+}
+.frm a:hover{
+	color: #4747d1;
+}
