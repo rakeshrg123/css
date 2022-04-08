@@ -35,7 +35,6 @@ table,th,td{
 }
 
 .searchbox{
-	/*display: flex;*/
 	float: right;
 	position: relative;
 	right: 100px;
@@ -45,8 +44,9 @@ table,th,td{
 	height: 35px;
 	line-height: 35px;
 	padding-left: 15px;
-	background: #e6ffff;
+	background: #ffffff;
 	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 	border: none;
 	outline: none;
 
